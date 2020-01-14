@@ -9,10 +9,10 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  checker = array[0]
+  counter = array[0]
   array.length.times { |index|
-    if array[index] > checker
-      checker = array[index]
+    if array[index] > counter
+      counter = array[index]
     end
   }
   return checker
