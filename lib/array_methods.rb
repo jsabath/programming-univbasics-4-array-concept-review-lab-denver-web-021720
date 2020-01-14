@@ -15,7 +15,7 @@ def find_max_value(array)
       counter = array[index]
     end
   }
-  return checker
+  return counter
 end
 
 def find_min_value(array)
